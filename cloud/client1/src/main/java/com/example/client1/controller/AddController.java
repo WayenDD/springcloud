@@ -26,4 +26,9 @@ public class AddController {
     public String type(){
         return type;
     }
+
+    @RequestMapping("/hello")
+    public String hello(){
+        return "hello";
+    }
 }
